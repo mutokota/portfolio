@@ -1,0 +1,154 @@
+body {
+  background-color: #575757;
+}
+#fadein {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  margin-top: 200px;
+  z-index: 800;
+  text-decoration: line-through;
+  text-decoration-thickness: 6px;
+  animation: fadeInAnime 1.5s forwards;
+  opacity: 0;
+}
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.header-in {
+  background-color: #ff7575;
+  height: 100vh;
+  position: relative;
+}
+.header-in img {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+/* ここからもホーム */
+.ul-list {
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 20px;
+  padding: 5px;
+  border: 2px groove #fff;
+  border-radius: 10px;
+}
+
+.ul-list li {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.ul-list li a:hover {
+  color: #75d3ff;
+}
+/* ここからアバウト */
+
+#main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3% 0;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+}
+
+#main .about-section {
+  position: absolute;
+  z-index: 200;
+  left: 27%;
+  padding: 60px;
+  border-radius: 10px;
+  border: 5px groove #ff7575;
+}
+
+#main dl dd {
+  margin-bottom: 20px;
+  padding: 2px 0;
+}
+
+.image-section {
+  height: 700px;
+  position: relative;
+}
+
+.image-section .image1,
+.image-section .image2,
+.image-section .image3 {
+  position: absolute;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.image-section .image1 {
+  top: -5%;
+  left: -15%;
+  z-index: 400;
+}
+
+.image-section .image2 {
+  top: 10%;
+  right: -15%;
+  z-index: 300;
+}
+
+.image-section .image3 {
+  bottom: 0;
+  left: -10%;
+  z-index: 600;
+}
+
+.laed-section {
+  position: absolute;
+  top: 80%;
+  right: -18%;
+  border: 4px groove #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* ここからコンタクト */
+
+#form {
+  max-width: 500px;
+  background-color: #575757;
+  position: relative;
+  z-index: 900;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  margin: 100px 0 0 50%;
+  border: 3px groove #ff7575;
+  border-radius: 10px;
+}
+
+#form li {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+#form li label {
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+#form .button {
+  width: 20%;
+  text-align: center;
+  padding: 3px;
+}
+
+#form .button:hover {
+  color: #75d3ff;
+}
+/*# sourceMappingURL=style.css.map */
